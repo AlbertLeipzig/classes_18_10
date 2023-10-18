@@ -5,7 +5,7 @@
   "type" : "module",
   "main": "index.js",
   "scripts": {
-    "app": "nodemon products.js"
+    "app": "nodemon main.js"
   },
   "keywords": [],
   "author": "albertleipzig <albertclemvill@gmail.com>",
