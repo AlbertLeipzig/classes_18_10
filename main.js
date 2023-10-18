@@ -1,1 +1,3 @@
-ECHO est  activado.
+console.clear()
+
+console.log(34563456);
