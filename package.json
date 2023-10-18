@@ -2,6 +2,7 @@
   "name": "classes_18_10",
   "version": "1.0.0",
   "description": "",
+  "type" : "module",
   "main": "index.js",
   "scripts": {
     "app": "nodemon main.js"
