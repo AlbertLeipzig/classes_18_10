@@ -11,7 +11,7 @@ console.clear();
 // smartphoneX.price = 200
 // smartphoneX.price = 300
 
-class Electronic {
+class Product {
   constructor(id, name, price, model, camara, quantity) {
     this.id = id;
     this.name = name;
@@ -36,7 +36,7 @@ class Electronic {
 
 // Smartphone (simKarte-slot)
 
-class Smartphone extends Electronic {
+class Smartphone extends Product {
   constructor(simKarteSlot, ...args) {
     super(...args);
     this.simKarteSlot = simKarteSlot;
@@ -45,7 +45,7 @@ class Smartphone extends Electronic {
 
 // Tablet (OS)
 
-class Tablet extends Electronic {
+class Tablet extends Product {
   constructor(os, ...args) {
     super(...args);
     this.os = os;
@@ -54,7 +54,7 @@ class Tablet extends Electronic {
 
 // Laptop (graphikKarte)
 
-class Laptop extends Electronic {
+class Laptop extends Product {
   constructor(graphikKarte, ...args) {
     super(...args);
     this.graphikKarte = graphikKarte;
@@ -62,7 +62,7 @@ class Laptop extends Electronic {
 }
 // Smartwatches (simKarte)
 
-class Smartwatches extends Electronic {
+class Smartwatches extends Product {
   constructor(simKarte, ...args) {
     super(...args);
     this.simKarte = simKarte;
